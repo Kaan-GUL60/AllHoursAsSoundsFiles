@@ -1,3 +1,4 @@
+// Kaan Gül 
 #include <virtuabotixRTC.h>                            //Kütüphanemizi ekliyoruz.
 int CLK_PIN = 6;                                       //6. pini clock pini olarak tanımladık
 int DAT_PIN = 7;                                       //7. pini data pini olarak tanımladık
