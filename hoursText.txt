@@ -1,0 +1,734 @@
+It’s one o’clock
+It's one past one 
+It's two past one 
+It's three past one 
+It's four past one 
+It's five past one 
+It's six past one 
+It's seven past one 
+It's eight past one 
+It's nine past one 
+It's ten past one 
+It's eleven past one 
+It's twelve past one 
+It's thirteen past one 
+It's fourteen past one 
+It’s quarter past one. 
+It's sixteen past one 
+It's seventeen past one 
+It's eighteen past one 
+It's nineteen past one 
+It's twenty past one 
+It's twenty one past one 
+It's twenty two past one 
+It's twenty three past one 
+It's twenty four past one 
+It's twenty five past one 
+It's twenty six past one 
+It's twenty seven past one 
+It's twenty eight past one 
+It's twenty nine past one 
+It’s half past one 
+It's twenty nine to two 
+It's twenty eight to two 
+It's twenty seven to two 
+It's twenty six to two 
+It's twenty five to two 
+It's twenty four to two 
+It's twenty three to two 
+It's twenty two to two 
+It's twenty one to two 
+It's twenty to two 
+It's nineteen to two 
+It's eighteen to two 
+It's seventeen to two 
+It's sixteen to two 
+It's fifteen to two 
+It's fourteen to two 
+It's thirteen to two 
+It's twelve to two 
+It's eleven to two 
+It's ten to two 
+It's nine to two 
+It's eight to two 
+It's seven to two 
+It's six to two 
+It's five to two 
+It's four to two 
+It's three to two 
+It's two to two
+It's one to two 
+---------------------------------------------
+It’s two o’clock
+It's one past two
+It's two past two
+It's three past two
+It's four past two
+It's five past two
+It's six past two
+It's seven past two
+It's eight past two
+It's nine past two
+It's ten past two
+It's eleven past two
+It's twelve past two
+It's thirteen past two
+It's fourteen past two
+It's fifteen past two
+It's sixteen past two
+It's seventeen past two
+It's eighteen past two
+It's nineteen past two
+It's twenty past two
+It's twenty one past two
+It's twenty two past two
+It's twenty three past two
+It's twenty four past two
+It's twenty five past two
+It's twenty six past two
+It's twenty seven past two
+It's twenty eight past two
+It's twenty nine past two
+It’s half past two
+It's twenty nine to three
+It's twenty eight to three
+It's twenty seven to three
+It's twenty six to three
+It's twenty five to three
+It's twenty four to three
+It's twenty three to three
+It's twenty two to three
+It's twenty one to three
+It's twenty to three
+It's nineteen to three
+It's eighteen to three
+It's seventeen to three
+It's sixteen to three
+It's fifteen to three
+It's fourteen to three
+It's thirteen to three
+It's twelve to three
+It's eleven to three
+It's ten to three
+It's nine to three
+It's eight to three
+It's seven to three
+It's six to three
+It's five to three
+It's four to three
+It's three to three
+It's two to three
+It's one to three
+--------------------------------------------------
+It’s three o’clock
+It's one past three
+It's two past three
+It's three past three
+It's four past three
+It's five past three
+It's six past three
+It's seven past three
+It's eight past three
+It's nine past three
+It's ten past three
+It's eleven past three
+It's twelve past three
+It's thirteen past three
+It's fourteen past three
+It's fifteen past three
+It's sixteen past three
+It's seventeen past three
+It's eighteen past three
+It's nineteen past three
+It's twenty past three
+It's twenty one past three
+It's twenty two past three
+It's twenty three past three
+It's twenty four past three
+It's twenty five past three
+It's twenty six past three
+It's twenty seven past three
+It's twenty eight past three
+It's twenty nine past three
+It’s half past three
+It's twenty nine to four
+It's twenty eight to four
+It's twenty seven to four
+It's twenty six to four
+It's twenty five to four
+It's twenty four to four
+It's twenty three to four
+It's twenty two to four
+It's twenty one to four
+It's twenty to four
+It's nineteen to four
+It's eighteen to four
+It's seventeen to four
+It's sixteen to four
+It's fifteen to four
+It's fourteen to four
+It's thirteen to four
+It's twelve to four
+It's eleven to four
+It's ten to four
+It's nine to four
+It's eight to four
+It's seven to four
+It's six to four
+It's five to four
+It's four to four
+It's three to four
+It's two to four
+It's one to four
+--------------------------------------------------
+It’s four o’clock
+It's one past four
+It's two past four
+It's three past four
+It's four past four
+It's five past four
+It's six past four
+It's seven past four
+It's eight past four
+It's nine past four
+It's ten past four
+It's eleven past four
+It's twelve past four
+It's thirteen past four
+It's fourteen past four
+It's fifteen past four
+It's sixteen past four
+It's seventeen past four
+It's eighteen past four
+It's nineteen past four
+It's twenty past four
+It's twenty one past four
+It's twenty two past four
+It's twenty three past four
+It's twenty four past four
+It's twenty five past four
+It's twenty six past four
+It's twenty seven past four
+It's twenty eight past four
+It's twenty nine past four
+It’s half past four
+It's twenty nine to five
+It's twenty eight to five
+It's twenty seven to five
+It's twenty six to five
+It's twenty five to five
+It's twenty four to five
+It's twenty three to five
+It's twenty two to five
+It's twenty one to five
+It's twenty to five
+It's nineteen to five
+It's eighteen to five
+It's seventeen to five
+It's sixteen to five
+It's fifteen to five
+It's fourteen to five
+It's thirteen to five
+It's twelve to five
+It's eleven to five
+It's ten to five
+It's nine to five
+It's eight to five
+It's seven to five
+It's six to five
+It's five to five
+It's four to five
+It's three to five
+It's two to five
+It's one to five
+--------------------------------------------------
+It’s five o’clock
+It's one past five
+It's two past five
+It's three past five
+It's four past five
+It's five past five
+It's six past five
+It's seven past five
+It's eight past five
+It's nine past five
+It's ten past five
+It's eleven past five
+It's twelve past five
+It's thirteen past five
+It's fourteen past five
+It's fifteen past five
+It's sixteen past five
+It's seventeen past five
+It's eighteen past five
+It's nineteen past five
+It's twenty past five
+It's twenty one past five
+It's twenty two past five
+It's twenty three past five
+It's twenty four past five
+It's twenty five past five
+It's twenty six past five
+It's twenty seven past five
+It's twenty eight past five
+It's twenty nine past five
+It’s half past five
+It's twenty nine to six
+It's twenty eight to six
+It's twenty seven to six
+It's twenty six to six
+It's twenty five to six
+It's twenty four to six
+It's twenty three to six
+It's twenty two to six
+It's twenty one to six
+It's twenty to six
+It's nineteen to six
+It's eighteen to six
+It's seventeen to six
+It's sixteen to six
+It's fifteen to six
+It's fourteen to six
+It's thirteen to six
+It's twelve to six
+It's eleven to six
+It's ten to six
+It's nine to six
+It's eight to six
+It's seven to six
+It's six to six
+It's five to six
+It's four to six
+It's three to six
+It's two to six
+It's one to six
+--------------------------------------------------
+It’s six o’clock
+It's one past six
+It's two past six
+It's three past six
+It's four past six
+It's five past six
+It's six past six
+It's seven past six
+It's eight past six
+It's nine past six
+It's ten past six
+It's eleven past six
+It's twelve past six
+It's thirteen past six
+It's fourteen past six
+It's fifteen past six
+It's sixteen past six
+It's seventeen past six
+It's eighteen past six
+It's nineteen past six
+It's twenty past six
+It's twenty one past six
+It's twenty two past six
+It's twenty three past six
+It's twenty four past six
+It's twenty five past six
+It's twenty six past six
+It's twenty seven past six
+It's twenty eight past six
+It's twenty nine past six
+It’s half past six
+It's twenty nine to seven
+It's twenty eight to seven
+It's twenty seven to seven
+It's twenty six to seven
+It's twenty five to seven
+It's twenty four to seven
+It's twenty three to seven
+It's twenty two to seven
+It's twenty one to seven
+It's twenty to seven
+It's nineteen to seven
+It's eighteen to seven
+It's seventeen to seven
+It's sixteen to seven
+It's fifteen to seven
+It's fourteen to seven
+It's thirteen to seven
+It's twelve to seven
+It's eleven to seven
+It's ten to seven
+It's nine to seven
+It's eight to seven
+It's seven to seven
+It's six to seven
+It's five to seven
+It's four to seven
+It's three to seven
+It's two to seven
+It's one to seven
+--------------------------------------------------
+It’s seven o’clock
+It's one past seven
+It's two past seven
+It's three past seven
+It's four past seven
+It's five past seven
+It's six past seven
+It's seven past seven
+It's eight past seven
+It's nine past seven
+It's ten past seven
+It's eleven past seven
+It's twelve past seven
+It's thirteen past seven
+It's fourteen past seven
+It's fifteen past seven
+It's sixteen past seven
+It's seventeen past seven
+It's eighteen past seven
+It's nineteen past seven
+It's twenty past seven
+It's twenty one past seven
+It's twenty two past seven
+It's twenty three past seven
+It's twenty four past seven
+It's twenty five past seven
+It's twenty six past seven
+It's twenty seven past seven
+It's twenty eight past seven
+It's twenty nine past seven
+It’s half past seven
+It's twenty nine to eight
+It's twenty eight to eight
+It's twenty seven to eight
+It's twenty six to eight
+It's twenty five to eight
+It's twenty four to eight
+It's twenty three to eight
+It's twenty two to eight
+It's twenty one to eight
+It's twenty to eight
+It's nineteen to eight
+It's eighteen to eight
+It's seventeen to eight
+It's sixteen to eight
+It's fifteen to eight
+It's fourteen to eight
+It's thirteen to eight
+It's twelve to eight
+It's eleven to eight
+It's ten to eight
+It's nine to eight
+It's eight to eight
+It's seven to eight
+It's six to eight
+It's five to eight
+It's four to eight
+It's three to eight
+It's two to eight
+It's one to eight
+--------------------------------------------------
+It’s eight o’clock
+It's one past eight
+It's two past eight
+It's three past eight
+It's four past eight
+It's five past eight
+It's six past eight
+It's seven past eight
+It's eight past eight
+It's nine past eight
+It's ten past eight
+It's eleven past eight
+It's twelve past eight
+It's thirteen past eight
+It's fourteen past eight
+It's fifteen past eight
+It's sixteen past eight
+It's seventeen past eight
+It's eighteen past eight
+It's nineteen past eight
+It's twenty past eight
+It's twenty one past eight
+It's twenty two past eight
+It's twenty three past eight
+It's twenty four past eight
+It's twenty five past eight
+It's twenty six past eight
+It's twenty seven past eight
+It's twenty eight past eight
+It's twenty nine past eight
+It’s half past eight
+It's twenty nine to nine
+It's twenty eight to nine
+It's twenty seven to nine
+It's twenty six to nine
+It's twenty five to nine
+It's twenty four to nine
+It's twenty three to nine
+It's twenty two to nine
+It's twenty one to nine
+It's twenty to nine
+It's nineteen to nine
+It's eighteen to nine
+It's seventeen to nine
+It's sixteen to nine
+It's fifteen to nine
+It's fourteen to nine
+It's thirteen to nine
+It's twelve to nine
+It's eleven to nine
+It's ten to nine
+It's nine to nine
+It's eight to nine
+It's seven to nine
+It's six to nine
+It's five to nine
+It's four to nine
+It's three to nine
+It's two to nine
+It's one to nine
+--------------------------------------------------
+It’s nine o’clock
+It's one past nine
+It's two past nine
+It's three past nine
+It's four past nine
+It's five past nine
+It's six past nine
+It's seven past nine
+It's eight past nine
+It's nine past nine
+It's ten past nine
+It's eleven past nine
+It's twelve past nine
+It's thirteen past nine
+It's fourteen past nine
+It's fifteen past nine
+It's sixteen past nine
+It's seventeen past nine
+It's eighteen past nine
+It's nineteen past nine
+It's twenty past nine
+It's twenty one past nine
+It's twenty two past nine
+It's twenty three past nine
+It's twenty four past nine
+It's twenty five past nine
+It's twenty six past nine
+It's twenty seven past nine
+It's twenty eight past nine
+It's twenty nine past nine
+It’s half past nine
+It's twenty nine to ten
+It's twenty eight to ten
+It's twenty seven to ten
+It's twenty six to ten
+It's twenty five to ten
+It's twenty four to ten
+It's twenty three to ten
+It's twenty two to ten
+It's twenty one to ten
+It's twenty to ten
+It's nineteen to ten
+It's eighteen to ten
+It's seventeen to ten
+It's sixteen to ten
+It's fifteen to ten
+It's fourteen to ten
+It's thirteen to ten
+It's twelve to ten
+It's eleven to ten
+It's ten to ten
+It's nine to ten
+It's eight to ten
+It's seven to ten
+It's six to ten
+It's five to ten
+It's four to ten
+It's three to ten
+It's two to ten
+It's one to ten
+--------------------------------------------------
+It’s ten o’clock
+It's one past ten
+It's two past ten
+It's three past ten
+It's four past ten
+It's five past ten
+It's six past ten
+It's seven past ten
+It's eight past ten
+It's nine past ten
+It's ten past ten
+It's eleven past ten
+It's twelve past ten
+It's thirteen past ten
+It's fourteen past ten
+It's fifteen past ten
+It's sixteen past ten
+It's seventeen past ten
+It's eighteen past ten
+It's nineteen past ten
+It's twenty past ten
+It's twenty one past ten
+It's twenty two past ten
+It's twenty three past ten
+It's twenty four past ten
+It's twenty five past ten
+It's twenty six past ten
+It's twenty seven past ten
+It's twenty eight past ten
+It's twenty nine past ten
+It’s half past ten
+It's twenty nine to eleven
+It's twenty eight to eleven
+It's twenty seven to eleven
+It's twenty six to eleven
+It's twenty five to eleven
+It's twenty four to eleven
+It's twenty three to eleven
+It's twenty two to eleven
+It's twenty one to eleven
+It's twenty to eleven
+It's nineteen to eleven
+It's eighteen to eleven
+It's seventeen to eleven
+It's sixteen to eleven
+It's fifteen to eleven
+It's fourteen to eleven
+It's thirteen to eleven
+It's twelve to eleven
+It's eleven to eleven
+It's ten to eleven
+It's nine to eleven
+It's eight to eleven
+It's seven to eleven
+It's six to eleven
+It's five to eleven
+It's four to eleven
+It's three to eleven
+It's two to eleven
+It's one to eleven
+--------------------------------------------------
+It’s eleven o’clock
+It's one past eleven
+It's two past eleven
+It's three past eleven
+It's four past eleven
+It's five past eleven
+It's six past eleven
+It's seven past eleven
+It's eight past eleven
+It's nine past eleven
+It's ten past eleven
+It's eleven past eleven
+It's twelve past eleven
+It's thirteen past eleven
+It's fourteen past eleven
+It's fifteen past eleven
+It's sixteen past eleven
+It's seventeen past eleven
+It's eighteen past eleven
+It's nineteen past eleven
+It's twenty past eleven
+It's twenty one past eleven
+It's twenty two past eleven
+It's twenty three past eleven
+It's twenty four past eleven
+It's twenty five past eleven
+It's twenty six past eleven
+It's twenty seven past eleven
+It's twenty eight past eleven
+It's twenty nine past eleven
+It’s half past eleven
+It's twenty nine to twelve
+It's twenty eight to twelve
+It's twenty seven to twelve
+It's twenty six to twelve
+It's twenty five to twelve
+It's twenty four to twelve
+It's twenty three to twelve
+It's twenty two to twelve
+It's twenty one to twelve
+It's twenty to twelve
+It's nineteen to twelve
+It's eighteen to twelve
+It's seventeen to twelve
+It's sixteen to twelve
+It's fifteen to twelve
+It's fourteen to twelve
+It's thirteen to twelve
+It's twelve to twelve
+It's eleven to twelve
+It's ten to twelve
+It's nine to twelve
+It's eight to twelve
+It's seven to twelve
+It's six to twelve
+It's five to twelve
+It's four to twelve
+It's three to twelve
+It's two to twelve
+It's one to twelve
+--------------------------------------------------
+It’s twelve o’clock
+It's one past twelve
+It's two past twelve
+It's three past twelve
+It's four past twelve
+It's five past twelve
+It's six past twelve
+It's seven past twelve
+It's eight past twelve
+It's nine past twelve
+It's ten past twelve
+It's eleven past twelve
+It's twelve past twelve
+It's thirteen past twelve
+It's fourteen past twelve
+It's fifteen past twelve
+It's sixteen past twelve
+It's seventeen past twelve
+It's eighteen past twelve
+It's nineteen past twelve
+It's twenty past twelve
+It's twenty one past twelve
+It's twenty two past twelve
+It's twenty three past twelve
+It's twenty four past twelve
+It's twenty five past twelve
+It's twenty six past twelve
+It's twenty seven past twelve
+It's twenty eight past twelve
+It's twenty nine past twelve
+It’s half past twelve
+It's twenty nine to one
+It's twenty eight to one
+It's twenty seven to one
+It's twenty six to one
+It's twenty five to one
+It's twenty four to one
+It's twenty three to one
+It's twenty two to one
+It's twenty one to one
+It's twenty to one
+It's nineteen to one
+It's eighteen to one
+It's seventeen to one
+It's sixteen to one
+It's fifteen to one
+It's fourteen to one
+It's thirteen to one
+It's twelve to one
+It's eleven to one
+It's ten to one
+It's nine to one
+It's eight to one
+It's seven to one
+It's six to one
+It's five to one
+It's four to one
+It's three to one
+It's two to one
+It's one to one
+--------------------------------------------------
+
+
