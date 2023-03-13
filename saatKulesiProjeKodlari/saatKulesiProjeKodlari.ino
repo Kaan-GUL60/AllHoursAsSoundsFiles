@@ -1,33 +1,30 @@
-// Kaan Gül 
-#include <virtuabotixRTC.h>                            //Kütüphanemizi ekliyoruz.
-int CLK_PIN = 6;                                       //6. pini clock pini olarak tanımladık
-int DAT_PIN = 7;                                       //7. pini data pini olarak tanımladık
-int RST_PIN = 8;                                       //8. pini reset pini olarak tanımladık.
-virtuabotixRTC myRTC(CLK_PIN, DAT_PIN, RST_PIN);      // Kütüphanemizi pinlere atıyoruz.
+//Kaan GÜL
+#include <virtuabotixRTC.h>                       
+int CLK_PIN = 6;                                       
+int DAT_PIN = 7;                                      
+int RST_PIN = 8;                                       
+virtuabotixRTC myRTC(CLK_PIN, DAT_PIN, RST_PIN);      
 
-#include <SD.h>                      // sd kart kütüphanesi
+#include <SD.h>                    
 #define Sd_Chip_pin 4
-#include <TMRpcm.h>           // melodi çalma kütüphanesi
+#include <TMRpcm.h>        
 char val;
-TMRpcm tmrpcm;   // melodi fonksiyonu oluşturma
-
+TMRpcm tmrpcm;   
 
 void setup() {
-  Serial.begin(9600);                                   //Seri haberleşmeyi başlatıyoruz.
-  myRTC.setDS1302Time(55, 59, 8, 3, 04, 03, 2023);     //Saati saniye, dakika, saat, haftanın günü, ayın günü, ay, yıl olarak ayarlıyoruz.
+  Serial.begin(9600);
+  Serial.println("başladı");
+  //myRTC.setDS1302Time(35, 11, 0, 2, 14, 03, 2023);    
+  tmrpcm.speakerPin = 9; 
 
-
-  tmrpcm.speakerPin = 9; // hoparlör + bacağı digital 9. pine tak
-
-  if (!SD.begin(Sd_Chip_pin)) {  // sd module bağlanma
+  if (!SD.begin(Sd_Chip_pin)) { 
+    Serial.println("sd ye bağlandı");
     return;
   }
-
 }
-
 void loop() {
-  myRTC.updateTime();                                   //RTC'den zamanı okuyoruz
-  Serial.print("Tarih / Saat: ");                       //Aldığımız verileri Serial Porta bastırıyoruz.
+  myRTC.updateTime();                                   
+  Serial.print("Tarih / Saat: ");                      .
   Serial.print(myRTC.dayofmonth);
   Serial.print("/");
   Serial.print(myRTC.month);
@@ -40,73 +37,19 @@ void loop() {
   Serial.print(":");
   Serial.println(myRTC.seconds);
   delay(1000); //1sn bekleme.
-
   kontrol();
-  /*tmrpcm.play("15.wav");
-  delay(1000);
-  tmrpcm.play("20.wav");
-    delay(1000);
-  tmrpcm.play("25.wav");
-    delay(1000);
-  tmrpcm.play("30.wav");
-    delay(1000);
-  tmrpcm.play("35.wav");
-    delay(1000);
-  tmrpcm.play("40.wav");
-    delay(1000);
-  tmrpcm.play("45.wav");
-    delay(1000);
-  tmrpcm.play("50.wav");
-    delay(1000);
-  tmrpcm.play("55.wav");
-    delay(1000);
-  tmrpcm.play("60.wav");
-    delay(1000);
-  tmrpcm.play("65.wav");
-    delay(1000);
-  tmrpcm.play("70.wav");
-    delay(1000);
-  tmrpcm.play("75.wav");
-    delay(1000);
-  tmrpcm.play("80.wav");
-    delay(1000);
-  tmrpcm.play("85.wav");
-    delay(1000);
-  tmrpcm.play("42.wav");
-    delay(1000);
-  tmrpcm.play("68.wav");
-    delay(1000);
-  tmrpcm.play("73.wav");
-    delay(1000);
-  tmrpcm.play("49.wav");
-    delay(1000);
-  tmrpcm.play("54.wav");
-    delay(1000);
-  tmrpcm.play("53.wav");
-    delay(1000);
-  tmrpcm.play("28.wav");
-    delay(1000);
-  tmrpcm.play("16.wav");
-    delay(1000);
-  tmrpcm.play("29.wav");
-    delay(1000);
-  tmrpcm.play("44.wav");
-    delay(1000);
-  tmrpcm.play("33.wav");
-    delay(1000);
-  tmrpcm.play("66.wav");
-    delay(1000);
-  tmrpcm.play("81.wav");
-    delay(1000);*/
 }
 
 void kontrol() {
   bool a = true;
-  int bekle = 30000;
+  int bekle = 20000;
   if (myRTC.hours == 9 && myRTC.minutes == 0) {
     if (a == true) {
       tmrpcm.play("1.wav");
       Serial.println("1.wav");
+      delay(3000);
+      tmrpcm.play("86.wav");
+      Serial.println("86.wav");
       delay(bekle);
       a = false;
     }
@@ -127,7 +70,7 @@ void kontrol() {
       a = false;
     }
   }
-  else if (myRTC.hours == 9 && myRTC.minutes == 10) {
+  else if (myRTC.hours == 9 && myRTC.minutes == 15) {
     if (a == true) {
       tmrpcm.play("4.wav");
       Serial.println("4.wav");
@@ -163,6 +106,9 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("8.wav");
       Serial.println("8.wav");
+      delay(3000);
+      tmrpcm.play("87.wav");
+      Serial.println("87.wav");
       delay(bekle);
       a = false;
     }
@@ -179,6 +125,9 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("10.wav");
       Serial.println("10.wav");
+      delay(3000);
+      tmrpcm.play("88.wav");
+      Serial.println("88.wav");
       delay(bekle);
       a = false;
     }
@@ -187,6 +136,9 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("11.wav");
       Serial.println("11.wav");
+      delay(3000);
+      tmrpcm.play("86.wav");
+      Serial.println("86.wav");
       delay(bekle);
       a = false;
     }
@@ -225,7 +177,7 @@ void kontrol() {
       a = false;
     }
   }
-  else if (myRTC.hours == 10 && myRTC.minutes == 10) {
+  else if (myRTC.hours == 10 && myRTC.minutes == 15) {
     if (a == true) {
       tmrpcm.play("16.wav");
       Serial.println("16.wav");
@@ -245,6 +197,9 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("18.wav");
       Serial.println("18.wav");
+      delay(3000);
+      tmrpcm.play("89.wav");
+      Serial.println("89.wav");
       delay(bekle);
       a = false;
     }
@@ -261,6 +216,9 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("20.wav");
       Serial.println("20.wav");
+      delay(3000);
+      tmrpcm.play("90.wav");
+      Serial.println("90.wav");
       delay(bekle);
       a = false;
     }
@@ -322,10 +280,13 @@ void kontrol() {
       a = false;
     }
   }
-  else if (myRTC.hours == 11 && myRTC.minutes == 10) {
+  else if (myRTC.hours == 11 && myRTC.minutes == 15) {
     if (a == true) {
       tmrpcm.play("28.wav");
       Serial.println("28.wav");
+      delay(3000);
+      tmrpcm.play("91.wav");
+      Serial.println("91.wav");
       delay(bekle);
       a = false;
     }
@@ -342,6 +303,9 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("30.wav");
       Serial.println("30.wav");
+      delay(3000);
+      tmrpcm.play("92.wav");
+      Serial.println("92.wav");
       delay(bekle);
       a = false;
     }
@@ -407,6 +371,9 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("38.wav");
       Serial.println("38.wav");
+      delay(3000);
+      tmrpcm.play("93.wav");
+      Serial.println("93.wav");
       delay(bekle);
       a = false;
     }
@@ -419,7 +386,7 @@ void kontrol() {
       a = false;
     }
   }
-  else if (myRTC.hours == 12 && myRTC.minutes == 10) {
+  else if (myRTC.hours == 12 && myRTC.minutes == 15) {
     if (a == true) {
       tmrpcm.play("40.wav");
       Serial.println("40.wav");
@@ -479,6 +446,9 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("47.wav");
       Serial.println("47.wav");
+      delay(3000);
+      tmrpcm.play("94.wav");
+      Serial.println("94.wav");
       delay(bekle);
       a = false;
     }
@@ -516,7 +486,7 @@ void kontrol() {
       a = false;
     }
   }
-  else if (myRTC.hours == 13 && myRTC.minutes == 10) {
+  else if (myRTC.hours == 13 && myRTC.minutes == 15) {
     if (a == true) {
       tmrpcm.play("52.wav");
       Serial.println("52.wav");
@@ -544,6 +514,9 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("55.wav");
       Serial.println("55.wav");
+      delay(3000);
+      tmrpcm.play("95.wav");
+      Serial.println("95.wav");
       delay(bekle);
       a = false;
     }
@@ -560,6 +533,9 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("57.wav");
       Serial.println("57.wav");
+      delay(3000);
+      tmrpcm.play("86.wav");
+      Serial.println("86.wav");
       delay(bekle);
       a = false;
     }
@@ -613,7 +589,7 @@ void kontrol() {
       a = false;
     }
   }
-  else if (myRTC.hours == 14 && myRTC.minutes == 10) {
+  else if (myRTC.hours == 14 && myRTC.minutes == 15) {
     if (a == true) {
       tmrpcm.play("64.wav");
       Serial.println("64.wav");
@@ -625,6 +601,9 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("65.wav");
       Serial.println("65.wav");
+      delay(3000);
+      tmrpcm.play("87.wav");
+      Serial.println("87.wav");
       delay(bekle);
       a = false;
     }
@@ -641,6 +620,9 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("67.wav");
       Serial.println("67.wav");
+      delay(3000);
+      tmrpcm.play("88.wav");
+      Serial.println("88.wav");
       delay(bekle);
       a = false;
     }
@@ -706,11 +688,14 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("75.wav");
       Serial.println("75.wav");
+      delay(3000);
+      tmrpcm.play("89.wav");
+      Serial.println("89.wav");
       delay(bekle);
       a = false;
     }
   }
-  else if (myRTC.hours == 15 && myRTC.minutes == 10) {
+  else if (myRTC.hours == 15 && myRTC.minutes == 15) {
     if (a == true) {
       tmrpcm.play("76.wav");
       Serial.println("76.wav");
@@ -722,6 +707,9 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("77.wav");
       Serial.println("77.wav");
+      delay(3000);
+      tmrpcm.play("90.wav");
+      Serial.println("90.wav");
       delay(bekle);
       a = false;
     }
@@ -787,9 +775,11 @@ void kontrol() {
     if (a == true) {
       tmrpcm.play("85.wav");
       Serial.println("85.wav");
+      delay(3000);
+      tmrpcm.play("91.wav");
+      Serial.println("91.wav");
       delay(bekle);
       a = false;
     }
   }
-  
 }
