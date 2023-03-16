@@ -1,30 +1,29 @@
-//Kaan GÜL
-#include <virtuabotixRTC.h>                       
-int CLK_PIN = 6;                                       
-int DAT_PIN = 7;                                      
-int RST_PIN = 8;                                       
-virtuabotixRTC myRTC(CLK_PIN, DAT_PIN, RST_PIN);      
+#include <virtuabotixRTC.h>                            //Kütüphanemizi ekliyoruz.
+int CLK_PIN = 6;                                       //6. pini clock pini olarak tanımladık
+int DAT_PIN = 7;                                       //7. pini data pini olarak tanımladık
+int RST_PIN = 8;                                       //8. pini reset pini olarak tanımladık.
+virtuabotixRTC myRTC(CLK_PIN, DAT_PIN, RST_PIN);      // Kütüphanemizi pinlere atıyoruz.
 
-#include <SD.h>                    
+#include <SD.h>                      // sd kart kütüphanesi
 #define Sd_Chip_pin 4
-#include <TMRpcm.h>        
+#include <TMRpcm.h>           // melodi çalma kütüphanesi
 char val;
-TMRpcm tmrpcm;   
+TMRpcm tmrpcm;   // melodi fonksiyonu oluşturma
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("başladı");
-  //myRTC.setDS1302Time(35, 11, 0, 2, 14, 03, 2023);    
-  tmrpcm.speakerPin = 9; 
+  Serial.println("başladı");//Seri haberleşmeyi başlatıyoruz.
+  //myRTC.setDS1302Time(57, 50, 21, 4, 16, 3, 2023);     //Saati saniye, dakika, saat, haftanın günü, ayın günü, ay, yıl olarak ayarlıyoruz.
+  tmrpcm.speakerPin = 9; // hoparlör + bacağı digital 9. pine tak
 
-  if (!SD.begin(Sd_Chip_pin)) { 
+  if (!SD.begin(Sd_Chip_pin)) {  // sd module bağlanma
     Serial.println("sd ye bağlandı");
     return;
   }
 }
 void loop() {
-  myRTC.updateTime();                                   
-  Serial.print("Tarih / Saat: ");                      .
+  myRTC.updateTime();                                   //RTC'den zamanı okuyoruz
+  Serial.print("Tarih / Saat: ");                       //Aldığımız verileri Serial Porta bastırıyoruz.
   Serial.print(myRTC.dayofmonth);
   Serial.print("/");
   Serial.print(myRTC.month);
@@ -38,6 +37,8 @@ void loop() {
   Serial.println(myRTC.seconds);
   delay(1000); //1sn bekleme.
   kontrol();
+
+
 }
 
 void kontrol() {
